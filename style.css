@@ -1,19 +1,220 @@
-body {
-    background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    
-}
-
-h1 {
-    color: red;
-}
-
 :root {
-    --blue-color: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    --pink-color: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    --background: linear-gradient(90deg, rgba(0,186,255,0.6815768543745624) 0%, rgba(8,182,253,1) 67%);
+    --pink-color: #FB9ECA;
+    --blue-color: #08B6FD;
 }
+
+html, body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    position: relative;
+    background: var(--background);
+  }
+
 
 .nav-link {
     color: white !important;
-    font-size: 24px !important;
-    font-weight: 700px !important;
+    font-size: 20px !important;
+  
 }
+
+.contacts-header {
+    background-color: white;
+    width: 440px !important;
+   
+    
+}
+
+.contacts-text{
+    font-size: 15px;
+    color: var(--blue-color);
+    text-decoration: none;
+    float:right;
+    
+    
+        
+}
+
+.contacts-pink{
+    color: var(--pink-color);
+    
+    
+}
+
+.icon-header {
+    background: var(--pink-color);
+    font-size: 55px;
+    text-align: center;
+    width: 95px !important;
+}
+
+.big-instagram {
+    color: white;
+    
+}
+
+.balls{
+    background-color: var(--pink-color);
+    border: 1px solid var(--pink-color);
+    border-top-left-radius: 45px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-social{
+    background-color: var(--blue-color);
+
+
+}
+
+.col-sm-1 {
+    width: 15%;
+}
+
+.welcome{
+font-family: 'Bitter', serif;
+color: white;
+font-size: 25px;
+
+
+
+}
+
+.dvish {
+    color:white;
+    font-weight: 900px;
+    font-size: 58px;
+    
+    
+    
+}
+
+.booking-link {
+     text-decoration: none;
+     color: white;
+     font-weight: 700;
+    font-size: 20px;
+}
+
+.booking-link:hover {
+    color: var(--pink-color);
+    background-color: var(--blue-color);
+    
+    
+}
+.booking {
+    border: 5px solid var(--pink-color);
+    background-color: var(--pink-color);
+    border-radius: 30px;
+    padding: 10px 15px;
+   
+    
+}
+
+.booking:hover {
+    border: 5px solid white;
+    background: white;
+    color: var(--pink-color);
+}
+
+
+
+
+strong {
+    font-size: 15px;
+}
+
+.box-about{
+    background-color: var(--pink-color);
+    width:537px !important;
+    
+}
+
+.collapse {
+display: flex;
+justify-content:space-around;
+}
+
+.box-blue{
+background-color: var(--blue-color);
+}
+
+.about-name {
+    font-family: 'Bitter', serif;
+color: black;
+font-size: 45px;
+}
+.about-us {
+    background-color: white;
+    height: 800px;
+    width:537px !important;
+    
+}
+
+.about-text {
+    font-family:'Courier New', Courier, monospace;
+color: black;
+font-size: 16px;
+}
+
+.about-icon {
+    display: flex;
+    justify-content:right !important;
+}
+
+.gallery {
+   
+    height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 300px;
+    margin: auto;
+    display: block;      
+}
+
+.list-service {
+    height: 20px;
+    font-size: 14px;
+}
+
+
+.botton-page {
+    background: white;
+    width: 100%;
+
+}
+
+#circle-pink {
+	width: 500px;
+	height: 500px;
+	background: #FFB3D9;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+    position: relative;
+    right: 230px;
+    z-index: -1;
+    bottom: -10px;
+}
+
+#circle-purple {
+	width: 350px;
+	height: 350px;
+	background: #C2B1F3;
+	-moz-border-radius: 175px;
+	-webkit-border-radius: 175px;
+	border-radius: 175px;
+    position: relative;
+    left: 300px;
+    top: 70px;
+    z-index: -1;
+    
+}
+
+
+
+
