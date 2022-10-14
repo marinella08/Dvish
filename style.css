@@ -451,7 +451,7 @@ background: #707070;
 
 
 
-.carousel-item {
+  .carousel-item {
     width: 900px !important;
     height: 506px !important;
     overflow: hidden !important;
@@ -483,6 +483,16 @@ background: #707070;
     display: block;
     padding-left: 240px !important;
     }
+
+
+
+
+
+
+
+
+
+  
 
 
 
