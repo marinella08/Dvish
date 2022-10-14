@@ -20,11 +20,15 @@ html, body {
   
 }
 
-.contacts-header {
-    background-color: white;
-    width: 440px !important;
-   
+.is-active {
+    text-decoration: underline !important;
+    text-underline-offset: 0.4rem;
     
+    
+}
+
+.nav-link:hover {
+    font-size: 22px !important;   
 }
 
 .contacts-text{
@@ -54,6 +58,8 @@ html, body {
     color: white;
     
 }
+
+
 
 .balls{
     background-color: var(--pink-color);
@@ -91,6 +97,7 @@ font-size: 25px;
     
     
     
+    
 }
 
 .booking-link {
@@ -102,7 +109,8 @@ font-size: 25px;
 
 .booking-link:hover {
     color: var(--pink-color);
-    background-color: var(--blue-color);
+    
+    
     
     
 }
@@ -111,6 +119,9 @@ font-size: 25px;
     background-color: var(--pink-color);
     border-radius: 30px;
     padding: 10px 15px;
+    
+    
+
    
     
 }
@@ -150,40 +161,49 @@ font-size: 45px;
 }
 .about-us {
     background-color: white;
-    height: 800px;
+    height: 780px;
     width:537px !important;
     
 }
 
 .about-text {
-    font-family:'Courier New', Courier, monospace;
+    
 color: black;
 font-size: 16px;
+text-align: justify;
 }
+
 
 .about-icon {
     display: flex;
     justify-content:right !important;
 }
 
-.gallery {
-   
-    height: auto; 
-    width: auto; 
-    max-width: 350px; 
-    max-height: 300px;
-    margin: auto;
-    display: block;      
-}
 
+
+.servise {
+    color: white;
+    font-family: 'Bitter', serif !important;
+    font-size: 45px;
+    
+
+
+}
 .list-service {
     height: 20px;
     font-size: 14px;
 }
 
+.servise-name{
+    color: white;
+    font-family: 'Bitter', serif !important;
+    font-size: 18px !important;
+    text-align: center;
+}
+
 
 .botton-page {
-    background: white;
+    background: radial-gradient(circle, rgba(8,149,253,1) 0%, rgba(8,182,253,1) 45%);
     width: 100%;
 
 }
@@ -204,7 +224,7 @@ font-size: 16px;
 #circle-purple {
 	width: 350px;
 	height: 350px;
-	background: #C2B1F3;
+	background: #6593f5;
 	-moz-border-radius: 175px;
 	-webkit-border-radius: 175px;
 	border-radius: 175px;
@@ -218,3 +238,296 @@ font-size: 16px;
 
 
 
+.box-bigger {
+    background-color: #2fcfff;
+    width: 290px !important;
+    
+
+}
+
+.box-bigger:hover{
+    background-color: #6593f5;
+     position: relative;
+    opacity: 1;
+    transform: scale(1.1);
+   
+}
+
+.babyshark{
+    display: block;
+    margin: auto;
+}
+
+
+.gallery-name{
+        color: white;
+        font-family: 'Bitter', serif !important;
+        font-size: 45px;
+
+}
+
+
+
+
+
+
+.photo-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+   font-size: 20px;
+}
+
+.photo-link:hover {
+   color: var(--pink-color);
+   
+   
+   
+   
+}
+.photo {
+   border: 5px solid var(--pink-color);
+   background-color: var(--pink-color);
+   border-radius: 30px;
+   padding: 4px 25px;
+   
+   
+
+  
+   
+}
+
+.photo:hover {
+   border: 5px solid white;
+   background: white;
+   color: var(--pink-color);
+}
+
+
+
+
+
+
+.about-page {
+    background-color: white;
+    height: 650px;
+    width:537px !important;
+    border: 2px solid #6593f5;
+    border-radius: 25px;
+   
+}
+
+
+
+
+
+
+
+
+
+.call-me {
+    font-size: 18px;
+    padding-top: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.information {
+    font-size: 13px;   
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.phone {
+    font-size: 28px;   
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.phone:hover{
+    color: var(--pink-color);
+}
+
+.code {
+    color: var(--pink-color);
+}
+
+
+
+
+.block-pink {
+    background: var(--pink-color);
+    border: 2px solid white;
+    border-radius: 25px;
+    
+}
+
+.contact-text {
+    color: white;
+    text-decoration: none;  
+    font-size: 25px;
+   
+}
+
+.tel {
+    font-size: 25px;
+}
+
+.second-text {
+    color: white;
+    text-decoration: none;  
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.second-text:hover {
+color: black;
+}
+
+.social-big:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.btn-pink {
+    color: white;
+    background-color: var(--pink-color);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 2px 5px !important;
+    text-align: center;
+    text-decoration: none !important;
+    
+}
+
+.btn-pink:hover {
+    text-decoration: none;
+    color: var(--blue-color) !important;
+}
+
+
+
+.card {
+    width: 350px !important;
+  height: 250px !important;
+  overflow: hidden !important;
+  
+ 
+  border: 1px solid white !important;
+  }
+  
+  .card img {
+  min-height: 250px !important;
+  min-width: 300px !important;
+  vertical-align: middle !important;
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-2 .owl-item {
+    padding: 10px 0 30px 0;
+}
+.carousel-2 .owl-pic  {
+    background: #000;
+    margin: 40px 0;
+    border: 5px solid #000;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    transition: all 0.4s ease;
+    height: 240px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.3), 0 16px 20px rgba(0,0,0,0.2);
+}
+.carousel-2 .owl-item.center .owl-pic {
+    opacity: 1;
+    border: 8px solid #BFE2FF;
+    margin: 0 0 0 -15%;
+    width: 130%;
+    height: 320px;
+}
+.carousel-2 .owl-item.center + .owl-item {
+    position: relative;
+    z-index: -1;
+}
+.carousel-2 .owl-pic img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s opacity ease, 0.3s transform ease;
+    opacity: 0.6;
+    object-fit: cover;
+}
+.carousel-2 .owl-item .owl-pic:hover img,
+.carousel-2 .owl-item.center .owl-pic img {
+    opacity: 1;
+}
+.carousel-2 .owl-nav .owl-prev,
+.carousel-2 .owl-nav .owl-next {
+    position: absolute;
+    cursor: pointer;
+    font-size: 60px!important;
+    color: #FFF!important;
+    top: 0;
+    height: 100%;
+    width: 70px;
+    transition: 0.3s opacity ease;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+}
+.carousel-2 .owl-nav .owl-prev:hover,
+.carousel-2 .owl-nav .owl-next:hover {
+    opacity: 1;
+}
+.carousel-2 .owl-nav .owl-prev,
+.carousel-2 .owl-nav .owl-prev:hover {
+    left: 0;
+}
+.carousel-2 .owl-nav .owl-next,
+.carousel-2 .owl-nav .owl-next:hover {
+    right: 0;
+}
