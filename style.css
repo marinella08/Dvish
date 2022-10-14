@@ -479,7 +479,7 @@ background: #707070;
 .vertical img {
     min-height: 510px !important;
     min-width: 510px !important;
-    vertical-align: middle !important;
+   
     display: block;
     padding-left: 240px !important;
     }
