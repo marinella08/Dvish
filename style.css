@@ -174,10 +174,7 @@ text-align: justify;
 }
 
 
-.about-icon {
-    display: flex;
-    justify-content:right !important;
-}
+
 
 
 
@@ -454,15 +451,38 @@ background: #707070;
 
 
 
+.carousel-item {
+    width: 900px !important;
+    height: 506px !important;
+    overflow: hidden !important;
+    
+}
+
+.carousel-item img {
+    min-height: 506px !important;
+    min-width: 900px !important;
+    vertical-align: middle !important;
+    }
+
+    .carousel-inner {
+        margin-left: 190px;
+    }
 
 
+.vertical {
+    width: 710px !important;
+    height: 510px !important;
+    overflow: hidden !important;
+}
 
 
-
-
-
-
-
+.vertical img {
+    min-height: 510px !important;
+    min-width: 510px !important;
+    vertical-align: middle !important;
+    display: block;
+    padding-left: 240px !important;
+    }
 
 
 
