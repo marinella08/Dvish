@@ -7,6 +7,8 @@
 html, body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
   }
   body {
     position: relative;
@@ -315,7 +317,10 @@ text-align: justify;
 }
 
 
-
+a {
+    text-decoration: none !important;
+    
+}
 
 
 .more-photo{
@@ -470,20 +475,20 @@ background: #707070;
 
 
 
-  .carousel-item {
+  .photo-item {
     width: 900px !important;
     height: 506px !important;
     overflow: hidden !important;
     
 }
 
-.carousel-item img {
+.photo-item img {
     min-height: 506px !important;
     min-width: 900px !important;
     vertical-align: middle !important;
     }
 
-    .carousel-inner {
+    .photo-page {
         margin-left: 190px;
     }
 
@@ -505,7 +510,11 @@ background: #707070;
 
 
 
-
+    .carousel-gallery {
+     display: flex;
+     align-items: center;
+        justify-content: center;
+    }
 
 
 
