@@ -159,7 +159,7 @@ font-size: 45px;
 }
 .about-us {
     background-color: white;
-    height: 780px;
+    
     width:537px !important;
     
 }
@@ -305,8 +305,7 @@ text-align: justify;
 
 .about-page {
     background-color: white;
-    height: 650px;
-    width:537px !important;
+   
     border: 2px solid #6593f5;
     border-radius: 25px;
    
@@ -510,10 +509,7 @@ background: #707070;
 
 
 
-    .carousel-gallery {
-        display: inline-block;
-        width: 90% !important;
-    }
+ 
 
 
 
