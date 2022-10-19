@@ -818,6 +818,28 @@ ul {
         display: flex;
         justify-content: center;
     }
+
+    .box-name {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .box-home-page {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .welcome {
+        font-size: 25px;
+        padding: 0px;
+        
+    }
+
+    .box-welcome {
+        margin-top: 0px;
+    }
+
+  
 }
 
 
