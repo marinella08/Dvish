@@ -166,6 +166,7 @@ font-size: 45px;
     background-color: white;
     
     width:537px !important;
+    height: 800px !important;
     
 }
 
@@ -502,7 +503,7 @@ background: #707070;
 
 .vertical {
     
-    width: 460px !important;
+    width: 480px !important;
     height: 510px !important;
     display: block;
     margin: auto;
