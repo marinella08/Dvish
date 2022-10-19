@@ -60,9 +60,15 @@ html, body {
     width: 95px !important;
 }
 
+.pink {
+    background-color: var(--pink-color);
+    border-top-left-radius: 55px;
+    
+}
 
-
-
+.list-home{
+    list-style: circle;
+}
 
 .balls{
     background-color: var(--pink-color);
@@ -71,6 +77,7 @@ html, body {
     margin: 0;
     display: flex;
     justify-content: center;
+    
 
 }
 
@@ -102,6 +109,12 @@ font-size: 25px;
     
     
 }
+
+.bg-pink {
+    background: var(--pink-color);
+}
+
+
 
 .booking-link {
      text-decoration: none;
@@ -144,7 +157,7 @@ strong {
 
 .box-about{
     background-color: var(--pink-color);
-    width:537px !important;
+    
     
 }
 
@@ -162,11 +175,10 @@ background-color: var(--blue-color);
 color: black;
 font-size: 45px;
 }
-.about-us {
+about-us {
     background-color: white;
     
-    width:537px !important;
-    height: 800px !important;
+    
     
 }
 
@@ -749,7 +761,63 @@ ul {
 
 
 
+@media (max-width: 1200px) {
+.welcome {
+    font-size: 45px;
+}
+
+.circle {
+    display: none;
+}
+    
+}
 
 
+
+@media (max-width: 998px) {
+    .welcome {
+        font-size: 45px;
+    }
+
+    .box-service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-box {
+        display: none;
+    }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+       .box-service {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .carousel1 {
+        width: 400px;
+        height: 106px;
+        display: block;
+        margin: auto;
+    }
+
+    .box-service {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
