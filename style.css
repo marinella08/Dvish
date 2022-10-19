@@ -39,7 +39,12 @@ html, body {
     float:right;
     
     
+
         
+}
+
+.color{
+    background-color: #FB9ECA;
 }
 
 .contacts-pink{
@@ -452,18 +457,18 @@ background: #707070;
 
 .card {
     width: 350px !important;
-  height: 250px !important;
+  height: 250px !important ;
   overflow: hidden !important;
   
  
   border: 1px solid white !important;
   }
   
-  .card img {
-  min-height: 250px !important;
-  min-width: 300px !important;
-  vertical-align: middle !important;
-  }
+ .card img {
+    min-height: 250px !important;
+    min-width: 300px !important;
+    vertical-align: middle !important;
+    }
    
 
 
@@ -471,9 +476,12 @@ background: #707070;
 
 
   .photo-item {
-    width: 900px !important;
+    width: 750px !important;
     height: 506px !important;
-    overflow: hidden !important;
+   
+    display: block;
+    margin: auto;
+    
     
     
     
@@ -482,8 +490,8 @@ background: #707070;
 .photo-item img {
     padding: 10px;
     min-height: 506px !important;
-    min-width: 900px !important;
-    vertical-align: middle !important;
+    min-width: 750px !important;
+    
    
     }
 
@@ -493,21 +501,24 @@ background: #707070;
 
 
 .vertical {
-    width: 710px !important;
+    
+    width: 460px !important;
     height: 510px !important;
-    overflow: hidden !important;
+    display: block;
+    margin: auto;
+    
 }
 
 
-.vertical img {
-    min-height: 510px !important;
-    min-width: 710px !important;
-    display: block;
-    padding-left: 240px !important;
-    
+
+
+
+    .carousel1 {
+        width: 800px;
+        height: 506px;
+        display: block;
+        margin: auto;
     }
-
-
 
  
 
@@ -584,3 +595,160 @@ background: #707070;
 .carousel-2 .owl-nav .owl-next:hover {
     right: 0;
 }
+
+/*SERVISE PAGE*/
+ul {
+    list-style: none;
+}
+
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  
+  background-color: var(--pink-color);
+  color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 14px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: white;
+  color: var(--pink-color);
+  
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    font-weight: 700;
+    
+    background-color: #6593f5;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+  background-color: white;
+}
+
+
+.block-main {
+    background-color: var(--pink-color);
+}
+
+.list-text {
+    line-height:50px
+}
+
+.photo-service {
+    background-color: #6593f5;
+    
+   
+}
+
+.blue{
+  
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+   
+    
+    display: block;
+    margin: auto;
+}
+
+.tablinks {
+    color: white;
+}
+
+
+.icon-service {
+    font-size: 25px;
+}
+
+.price {
+    font-size: 45px;
+    color: red;
+    font-weight: 700;
+}
+
+.uah {
+    font-size: 35px;
+    color: red;
+    font-weight: 500;
+}
+
+.time-price {
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.first-text {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    color: white;
+}
+
+
+
+.price-more{
+    font-weight: 400;
+    font-size: 18px!important;
+}
+
+
+
+.btn-1 {
+    border: 2px solid var(--pink-color);
+    background-color: var(--pink-color);
+    border-radius: 10px;
+    padding: 7px 9px;
+    
+    background: white;
+    color: var(--pink-color);
+
+   
+    
+}
+
+
+
+.box-more {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 75px;
+    height: 650px;
+}
+
+.list-more{
+    line-height: 8px;
+    
+}
+
+
+
+
+
+
+
+
