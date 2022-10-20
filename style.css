@@ -531,7 +531,9 @@ background: #707070;
         margin: auto;
     }
 
- 
+ .title{
+    font-size: 20px;
+ }
 
 
 
