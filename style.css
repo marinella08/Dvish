@@ -198,10 +198,8 @@ text-align: justify;
     color: white;
     font-family: 'Bitter', serif !important;
     font-size: 45px;
-    
-
-
 }
+
 .list-service {
     height: 20px;
     font-size: 14px;
@@ -619,7 +617,7 @@ ul {
 
 /* Style the tab */
 .tab {
-  overflow: hidden;
+  
   
   background-color: var(--pink-color);
   color: white;
@@ -761,6 +759,12 @@ ul {
 
 
 
+
+
+
+
+
+
 @media (max-width: 1200px) {
 .welcome {
     font-size: 45px;
@@ -787,7 +791,13 @@ ul {
     .gallery-box {
         display: none;
     }
-
+    .pink-md {
+        border-radius: 45px;
+        background-color: var(--pink-color);
+    }
+    .servise {
+        font-size: 35px;
+    }
 
 }
 
@@ -797,6 +807,19 @@ ul {
        .box-service {
         display: flex;
         justify-content: center;
+    }
+
+    .pink-md {
+        border-radius: 45px;
+        background-color: var(--pink-color);
+    }
+    .servise {
+        font-size: 35px;
+    }
+
+    .tab {
+        margin: 0px !important;
+        overflow: scroll;
     }
 }
 
@@ -846,6 +869,7 @@ ul {
   .balles{
     width: 300px;
     height: 340px ;
+    border-radius: 45px;
   }
   
   .box-home-page {
@@ -863,6 +887,30 @@ ul {
     margin: 0px !important;
     
   }
+
+  .cont-about {
+    margin: 2px !important;
+
+  }
+
+  .pink-md {
+    border-radius: 45px;
+    background-color: var(--pink-color);
+}
+
+.servise {
+    font-size: 25px;
+}
+
+.first-text {
+    padding-left: 1px !important;
+    color: #000 !important;
+}
+
+.tab {
+    margin: 0px !important;
+    overflow: scroll;
+}
 }
 
 
