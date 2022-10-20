@@ -747,7 +747,7 @@ ul {
 .box-more {
     background-color: white;
     border: 1px solid transparent;
-    border-radius: 75px;
+    border-radius: 25px;
     height: 650px;
 }
 
@@ -799,6 +799,68 @@ ul {
         font-size: 35px;
     }
 
+    .pink-md {
+        border-radius: 45px;
+        background-color: var(--pink-color);
+    }
+    
+    .servise {
+        font-size: 25px !important;
+    }
+    
+    .first-text {
+        padding-left: 1px !important;
+        color: #000 !important;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .tab {
+        margin: 0px !important;
+        
+    }
+    
+    .tab button { 
+        padding: 6px 10px;
+        font-size: 14px;
+      }
+    
+      .price {
+        font-size: 40px;
+        
+    }
+    
+    .time-price {
+        font-size: 20px;
+       
+    }
+    
+    .icon-service {
+        font-size: 20px;
+    
+    }
+    
+    .list-text {
+        line-height:40px
+    }
+    
+    .list-text-sm {
+        padding: 0px !important;
+        margin: 0px;
+    }
+    
+    .box-more {
+        
+        border-radius: 25px;
+        height: 750px;
+    }
+    
+    
+    .list-more{
+        padding: 0px;
+        font-size: 15px !important;
+    }
+
 }
 
 
@@ -820,6 +882,68 @@ ul {
     .tab {
         margin: 0px !important;
         overflow: scroll;
+    }
+
+    .pink-md {
+        border-radius: 45px;
+        background-color: var(--pink-color);
+    }
+    
+    .servise {
+        font-size: 25px !important;
+    }
+    
+    .first-text {
+        padding-left: 1px !important;
+        color: #000 !important;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .tab {
+        margin: 0px !important;
+        
+    }
+    
+    .tab button { 
+        padding: 6px 10px;
+        font-size: 14px;
+      }
+    
+      .price {
+        font-size: 40px;
+        
+    }
+    
+    .time-price {
+        font-size: 20px;
+       
+    }
+    
+    .icon-service {
+        font-size: 20px;
+    
+    }
+    
+    .list-text {
+        line-height:40px
+    }
+    
+    .list-text-sm {
+        padding: 0px !important;
+        margin: 0px;
+    }
+    
+    .box-more {
+        
+        border-radius: 25px;
+        height: 750px;
+    }
+    
+    
+    .list-more{
+        padding: 0px;
+        font-size: 15px !important;
     }
 }
 
@@ -905,14 +1029,54 @@ ul {
 .first-text {
     padding-left: 1px !important;
     color: #000 !important;
+    font-size: 14px;
+    text-align: justify;
 }
 
 .tab {
     margin: 0px !important;
-    overflow: scroll;
+    
+}
+
+.tab button { 
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 40px;
+    
+}
+
+.time-price {
+    font-size: 20px;
+   
+}
+
+.icon-service {
+    font-size: 20px;
+
+}
+
+.list-text {
+    line-height:40px
+}
+
+.list-text-sm {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.box-more {
+    
+    border-radius: 25px;
+    height: 750px;
 }
 
 
+.list-more{
+    padding: 0px;
+    font-size: 15px !important;
 }
 
-
+}
