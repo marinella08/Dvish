@@ -863,6 +863,9 @@ ul {
         font-size: 15px !important;
     }
 
+    .botton-page-photo {
+        display: none;
+    }
 }
 
 
@@ -947,6 +950,11 @@ ul {
         padding: 0px;
         font-size: 15px !important;
     }
+
+    .botton-page-photo {
+        display: none;
+    }
+
 }
 
 
@@ -1079,6 +1087,10 @@ ul {
 .list-more{
     padding: 0px;
     font-size: 15px !important;
+}
+
+.botton-page-photo {
+    display: none;
 }
 
 }
