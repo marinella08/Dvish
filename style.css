@@ -830,9 +830,13 @@ ul {
     }
 
     .welcome {
-        font-size: 25px;
-        padding: 0px;
+        font-size: 25px !important;
+        padding-top: 1px !important;
         
+    }
+
+    .dvish{
+        font-size: 45px !important;
     }
 
     .box-welcome {
@@ -844,6 +848,21 @@ ul {
     height: 340px ;
   }
   
+  .box-home-page {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+  }
+
+  .servise {
+    font-size: 35px !important;
+  }
+
+  .about-text {
+    padding-left: 1px !important;
+    padding-right: 5px !important;
+    margin: 0px !important;
+    
+  }
 }
 
 
